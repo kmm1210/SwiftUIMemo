@@ -13,6 +13,8 @@
 		A71CF25F290FFD36002B75DC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71CF25E290FFD36002B75DC /* Persistence.swift */; };
 		A71CF262290FFD36002B75DC /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A71CF260290FFD36002B75DC /* SwiftUIMemo.xcdatamodeld */; };
 		A71CF269290FFFCE002B75DC /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71CF268290FFFCE002B75DC /* MainListView.swift */; };
+		A71CF26D29100245002B75DC /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71CF26C29100245002B75DC /* Memo.swift */; };
+		A71CF26F29100372002B75DC /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71CF26E29100372002B75DC /* MemoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		A71CF25E290FFD36002B75DC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A71CF261290FFD36002B75DC /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
 		A71CF268290FFFCE002B75DC /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		A71CF26C29100245002B75DC /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		A71CF26E29100372002B75DC /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		A71CF26B29100002002B75DC /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				A71CF26C29100245002B75DC /* Memo.swift */,
+				A71CF26E29100372002B75DC /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -160,9 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71CF269290FFFCE002B75DC /* MainListView.swift in Sources */,
+				A71CF26F29100372002B75DC /* MemoStore.swift in Sources */,
 				A71CF25F290FFD36002B75DC /* Persistence.swift in Sources */,
 				A71CF262290FFD36002B75DC /* SwiftUIMemo.xcdatamodeld in Sources */,
 				A71CF256290FFD35002B75DC /* SwiftUIMemoApp.swift in Sources */,
+				A71CF26D29100245002B75DC /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
