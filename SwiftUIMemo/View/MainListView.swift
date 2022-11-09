@@ -23,13 +23,13 @@ struct MainListView: View {
             }
             .listStyle(.plain)
             .navigationTitle("내 메모")
-            .toolbar(content: {
+            .toolbar {
                 Button {
                     showComposer = true
                 } label: {
                     Image(systemName: "plus")
                 }
-            })
+            }
             
             .sheet(isPresented: $showComposer) {
                 ComposeView()
