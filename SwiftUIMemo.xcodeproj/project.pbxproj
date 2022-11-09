@@ -16,6 +16,7 @@
 		A71CF26D29100245002B75DC /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71CF26C29100245002B75DC /* Memo.swift */; };
 		A71CF26F29100372002B75DC /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71CF26E29100372002B75DC /* MemoStore.swift */; };
 		A723B51A291BF20C00EFC9BB /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A723B519291BF20C00EFC9BB /* ComposeView.swift */; };
+		A723B51C291BFDDF00EFC9BB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A723B51B291BFDDF00EFC9BB /* DetailView.swift */; };
 		A791D4E52917C93C003EED33 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A791D4E42917C93C003EED33 /* MemoCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		A71CF26C29100245002B75DC /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		A71CF26E29100372002B75DC /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		A723B519291BF20C00EFC9BB /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		A723B51B291BFDDF00EFC9BB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A791D4E42917C93C003EED33 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				A791D4E42917C93C003EED33 /* MemoCell.swift */,
 				A71CF268290FFFCE002B75DC /* MainListView.swift */,
 				A723B519291BF20C00EFC9BB /* ComposeView.swift */,
+				A723B51B291BFDDF00EFC9BB /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A791D4E52917C93C003EED33 /* MemoCell.swift in Sources */,
+				A723B51C291BFDDF00EFC9BB /* DetailView.swift in Sources */,
 				A71CF269290FFFCE002B75DC /* MainListView.swift in Sources */,
 				A71CF26F29100372002B75DC /* MemoStore.swift in Sources */,
 				A71CF25F290FFD36002B75DC /* Persistence.swift in Sources */,
